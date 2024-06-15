@@ -1,0 +1,432 @@
+body, h1, h3, ul, li, a, button {
+    margin: 10px;
+    padding: 0;
+    font-family: Arial, sans-serif;
+    text-decoration: none;
+    list-style: none;
+    color: #000000;
+  }
+  
+  .container {
+    max-width: 1200px;
+    margin: 20px auto;
+    padding: 20px;
+    text-align: center;
+  }
+  
+  h1 {
+    margin-bottom: 20px;
+    color: #000000;
+  }
+  
+  button {
+    padding: 10px 20px;
+    font-size: 1rem;
+    color: #fff;
+    background-color: #dc3545;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+  }
+  
+  button:hover {
+    background-color: #c82333;
+  }
+  
+  .divider1 {
+    margin: 20px 0;
+    border-top: 2px solid #ddd;
+  }
+  
+  .fdesign1 {
+    background-color: #f8f9fa;
+    padding: 40px 0;
+  }
+  
+  .fcontainer1 {
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    max-width: 1000px;
+    margin: 0 auto;
+  }
+  
+  .logo img {
+    max-width: 150px;
+    margin-bottom: 20px;
+  }
+  
+  .fsection {
+    flex: 1;
+    min-width: 200px;
+    margin: 20px;
+  }
+  
+  .fsection h3 {
+    margin-bottom: 15px;
+    color: #333;
+  }
+  
+  .fsection ul {
+    padding-left: 0;
+  }
+  
+  .fsection li {
+    margin-bottom: 10px;
+  }
+  
+  .fsection a {
+    color: #0a0b0c;
+    transition: color 0.3s ease;
+  }
+  
+  .fsection a:hover {
+    color: #0a0a0a;
+  }
+  
+  /* design section 2 */
+  .fdesign2 {
+    background-color: #f8f9fa;
+    padding: 40px 0;
+  }
+  
+  .fcontainer2 {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    flex-wrap: wrap;
+    max-width: 1000px;
+    margin: 0 auto;
+  }
+  
+  .logo img {
+    max-width: 100px;
+    margin: 20px;
+  }
+  
+  .fsection3, .fsection4 {
+    flex: 1;
+    min-width: 200px;
+    margin: 20px;
+    text-align: center;
+  }
+  
+  .fsection3 h3, .fsection4 h3 {
+    margin-bottom: 15px;
+    color: #000000;
+  }
+  
+  .fsection3 ul, .fsection4 ul {
+    padding-left: 0;
+  }
+  
+  .fsection3 li, .fsection4 li {
+    margin-bottom: 10px;
+  }
+  
+  .fsection3 a, .fsection4 a {
+    color: #050505;
+    transition: color 0.3s ease;
+  }
+  
+  .divider3 {
+    margin: 40px 0;
+    text-align: center;
+  }
+  
+  .divider3 h1 {
+    color: #000000;
+  }
+  
+  .thirddesign {
+    text-align: center;
+    padding: 40px 0;
+  }
+  
+  .logo img {
+    max-width: 150px;
+  }
+  
+  .fsection5 {
+    text-align: center;
+    padding: 20px 0;
+  }
+  
+  .fsection5 ul {
+    padding-left: 0;
+  }
+  
+  .fsection5 li {
+    display: inline-block;
+    margin-right: 20px;
+  }
+  
+  .fsection5 a {
+    color: #000000;
+    transition: color 0.3s ease;
+  }
+  
+  .divider4 {
+    background-color: #f0f0f0;
+    padding: 50px 0;
+    text-align: center;
+  }
+  
+  
+  .fourthdesign {
+    background-color: #333;
+    color: white;
+    padding: 20px;
+  }
+  
+  .fourthdesign .logo {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  
+  .fourthdesign .logo img {
+    width: 100px;
+    height: auto;
+    margin-right: 10px;
+  }
+  
+  .fourthdesign .logo p {
+    margin: 0;
+    font-size: 14px;
+  }
+  
+  .divider5 {
+    background-color: #f0f0f0;
+    padding: 50px 0;
+    text-align: center;
+  }
+  
+  .fifthdesign {
+    background-color: #333;
+    color: white;
+    padding: 20px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+  
+  .fifthdesign .logo img {
+    width: 100px;
+    height: auto;
+  }
+  
+  .fifthdesign .fa-brands {
+    color: white;
+    font-size: 24px;
+    margin-left: 10px;
+  }
+  
+  img.animatelogo
+  {
+   width:100px;
+   transition: all .3s;
+  }
+  img.animatelogo:hover
+  {
+   width:300px;
+   transition: all .3s;
+  }
+  
+  .fdesign6
+  {
+    align-items: center;
+    background-color: #bebebe;
+  }
+  .fsection6
+  {
+    display: inline-block;
+  
+  }
+  
+  .fsection7
+  {
+    display: inline-block;
+  
+  }
+
+  .sndlogo
+  {
+    width: 100px;
+    transition: all .3s;
+  }
+  .sndlogo:hover
+  {
+    width: 300px;
+    transition: all .3s;
+    rotate: 360deg;
+  }
+  
+  .fsection6,
+  .fsection7 {
+      margin-bottom: 20px;
+  }
+  
+  .fsection6 h3,
+  .fsection7 h3 {
+      font-size: 18px;
+      color: #333;
+      margin-bottom: 10px;
+  }
+  
+  .fsection6 ul,
+  .fsection7 ul {
+      list-style-type: none;
+      padding-left: 0;
+  }
+  
+  .fsection6 ul li,
+  .fsection7 ul li {
+      margin-bottom: 8px;
+  }
+  
+  .fsection6 ul li a,
+  .fsection7 ul li a {
+      text-decoration: none;
+      color: #666;
+  }
+  
+  .fsection6 ul li a:hover,
+  .fsection7 ul li a:hover {
+      color: #000;
+  }
+  
+  @keyframes fadeInUp {
+    from {
+        opacity: 0;
+        transform: translateY(20px);
+    }
+    to {
+        opacity: 1;
+        transform: translateY(0);
+    }
+}
+
+.divider8, .thirddesign, .fsection9 {
+    animation: fadeInUp 5s ease forwards;
+}
+
+.divider8 {
+    background-color: #f0f0f0;
+    padding: 20px;
+}
+
+.thirddesign {
+    background-color: #ccc;
+    padding: 20px;
+}
+
+.fsection9 {
+    background-color: #f8f8f8;
+    padding: 20px;
+}
+
+ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+li {
+    margin-bottom: 10px;
+}
+
+a {
+    text-decoration: none;
+    color: #333;
+    text-align: justify;
+}
+
+a:hover {
+    color: #555;
+}
+
+.divider10 {
+    background-color: #f0f0f0;
+    padding: 20px;
+}
+
+.divider9 {
+    background-color: #f0f0f0;
+    padding: 20px;
+}
+
+.fourthdesign {
+    background-color: #333;
+    color: #fff;
+    padding: 20px;
+    text-align: center;
+}
+
+.logo4 img {
+    width: 100px;
+    height: auto;
+}
+
+.logo4 p {
+    margin-top: 10px;
+    font-size: 14px;
+}
+
+
+@keyframes spin {
+    0% {
+        transform: rotate(0deg);
+    }
+    100% {
+        transform: rotate(360deg);
+    }
+}
+
+
+.logo4 img {
+    animation: spin 2s linear infinite;
+}
+
+.fifthdesign {
+    background-color: #333;
+    color: #fff;
+    padding: 20px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.logo img {
+    width: 100px;
+    height: auto;
+}
+
+.fifthdesign i {
+    color: #fff;
+    font-size: 24px;
+    margin-left: 10px;
+}
+
+
+@keyframes bounceIn {
+    0% {
+        transform: scale(0);
+    }
+    50% {
+        transform: scale(1.2);
+    }
+    100% {
+        transform: scale(1);
+    }
+}
+
+
+.fifthdesign i {
+    animation: bounceIn 0.5s ease-in-out forwards;
+}
+
+
+.fifthdesign i:hover {
+    color: #13a05e;
+}
