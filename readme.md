@@ -1,36 +1,34 @@
-WD-Seatwork-3
+# WD-Seatwork-3
 
-Welcome to WD-Seatwork-3! This repository contains files and directories for the project.
+![Project Logo](/assets/img/PokemonLogo.png)
 
-Directory Structure
-css
-Copy code
-WD-Seatwork-3
+# Activity 3
+
+This repository contains code for Activity 3, showcasing proficiency in HTML and CSS through multiple pages, effects, and container manipulations, including various versions of headers and footers.
+
+## Project Structure
+
+```plaintext
+.
 ├── assets
 │   ├── css
 │   │   └── style.css
-│   ├── img
-│   │   └── fileWith.jpeg/.jpg/.webp/.png
-│   └── js
-│       └── script.js
+│   └── img
+│       └── Charizards.gif
 ├── pages
 │   ├── footer-gallery
-│   │   ├── assets
-│   │   │   ├── css
-│   │   │   │   └── style.css
-│   │   │   ├── img
-│   │   │   │   └── fileWith.jpeg/.jpg/.webp/.png
-│   │   │   └── js
-│   │   │       └── script.js
-│   │   └── index.html
+│   │   ├── index.html
+│   │   └── assets
+│   │       ├── css
+│   │       │   └── style.css
+│   │       └── img
+│   │           └── fileWith.jpeg/.jpg/.webp/.png
 │   ├── header-gallery
-│   │   ├── assets
-│   │   │   ├── css
-│   │   │   │   └── style.css
-│   │   │   ├── img
-│   │   │   │   └── fileWith.jpeg/.jpg/.webp/.png
-│   │   │   └── js
-│   │   │       └── script.js
-│   │   └── index.html
-├── index.html
+│   │   ├── index.html
+│   │   └── assets
+│   │       ├── css
+│   │       │   └── style.css
+│   │       └── img
+│   │           └── fileWith.jpeg/.jpg/.webp/.png
+│   └── index.html
 └── README.md
