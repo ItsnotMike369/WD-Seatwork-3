@@ -1,0 +1,547 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "San-Serif";
+  }
+  
+h1 {
+  text-align: center;
+  font-size: 2.5rem;
+  margin: 20px 0;
+  color: #333;
+}
+
+a {
+  display: flex;
+  justify-content: center;
+  margin: 0px ;
+  text-decoration: none;
+}
+
+button {
+  padding: 10px 20px;
+  font-size: 1rem;
+  color: #fff;
+  background-color: #28a745;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+button:hover {
+  background-color: #218838;
+}
+
+  
+  body {
+    display: flex;
+    flex-direction: column;
+    align-items: right;
+    height: fit-content;
+    width: 100vw;
+    overflow-x: hidden;
+  }
+
+.design1 {
+  background-color: #f4f4f4;
+  padding: 20px;
+  border: 1px solid #ccc;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+header.design-one {
+  width: 100vw;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 0.7rem 10vw;
+  background: gray;
+}
+
+header.design-one > img.company-logo {
+  height: 50px;
+}
+
+header.design-one > nav.navigation {
+  display: flex;
+  align-items: center;
+  gap: 1rem;
+}
+
+header.design-one > nav.navigation > a.navigation-content {
+  font-weight: 600;
+  font-size: 1.1rem;
+  color: black;
+}
+
+header.design-one > nav.navigation > a.different-font {
+  font-family: "Courier New", Courier, monospace;
+}
+
+.design2 {
+  background-color: #f4f4f4;
+  padding: 20px;
+  border: 1px solid #ccc;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+  header.design-two {
+    width: 100vw;
+    display: flex;
+    justify-content: space-between;
+    padding: 0.7rem 10vw;
+    background: grey;
+  }
+  
+  header.design-two > img.company-logo {
+    height: 50px;
+  }
+  
+  header.design-two > nav.navigation {
+    display: flex;
+    align-items: center;
+    gap: 1rem;
+  }
+  
+  header.design-two > nav.navigation > a.navigation-content {
+    font-weight: 600;
+    font-size: 1.1rem;
+    color: black;
+  }
+  
+  header.design-two > nav.navigation > a.call-to-action {
+    background-color: white;
+    padding: 0.5rem 1rem;
+    border-radius: 5px;
+    color: black;
+  }
+
+  .design3 {
+    background-color: #f4f4f4;
+    padding: 20px;
+    border: 1px solid #ccc;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+  }
+
+header.design-three {
+  width: 100vw;
+  display: flex;
+  justify-content: space-between;
+  padding: 0.7rem 10vw;
+  background: grey;
+}
+
+header.design-three > img.company-logo {
+  height: 50px;
+}
+
+header.design-three > nav.navigation {
+  display: flex;
+  align-items: center;
+  gap: 1rem;
+}
+
+header.design-three > nav.navigation > a.navigation-content {
+  font-weight: 600;
+  font-size: 1.1rem;
+  color: black;
+}
+
+header.design-three > nav.navigation > i.fa-solid.fa-user {
+  font-size: 1.5rem;
+  color: black;
+  cursor: pointer;
+}
+
+.design4 {
+  background-color: #f4f4f4;
+  padding: 20px;
+  border: 1px solid #ccc;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+header.design-four {
+  width: 100vw;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 0.7rem 10vw;
+  background: grey;
+}
+
+header.design-four > nav.navigation:first-of-type {
+  display: flex;
+  gap: 6rem;
+}
+
+header.design-four > img.company-logo {
+  height: 50px;
+}
+
+header.design-four > nav.navigation:last-of-type {
+  display: flex;
+  gap: 6rem;
+}
+
+header.design-four > nav.navigation > a.navigation-content {
+  font-weight: 600;
+  font-size: 1.1rem;
+  color: black;
+}
+
+.design5 {
+  background-color: #f4f4f4;
+  padding: 5px;
+  border: 1px solid #ccc;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+}
+
+.design5 h1 {
+  font-size: 2rem;
+  margin-bottom: 5px;
+  color: #333;
+}
+
+
+.design5 {
+  background-color: #f4f4f4;
+  padding: 20px;
+  border: 1px solid #ccc;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+}
+
+.design5 h1 {
+  font-size: 2rem;
+  margin-bottom: 10px;
+  color: #333;
+}
+
+.design5 p {
+  font-size: 1.2rem;
+  color: #666;
+}
+
+
+header.design-five {
+  width: 100vw;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 0.7rem 10vw;
+  background: gray;
+}
+
+
+header.design-five > a > img.company-logo {
+  height: 50px;
+}
+
+
+header.design-five > nav.navigation {
+  display: flex;
+  align-items: center;
+  gap: 1rem;
+}
+
+
+header.design-five > nav.navigation > a > i {
+  font-size: 1.5rem;
+  color: black;
+  cursor: pointer;
+}
+
+header.design-one-animation {
+  width: 100vw;
+  display: flex;
+  justify-content: space-between;
+  padding: 0 10vw;
+  height: calc(50px + 1rem);
+  align-items: center;
+  background: rgb(63, 37, 136);
+
+  & > img.company-logo {
+    height: 50px;
+    padding: 0.2rem 0;
+    transition: all 0.3s ease;
+
+    &:hover {
+      transform: rotateZ(360deg);
+    }
+  }
+
+
+.navigation {
+  display: flex;
+  justify-content: space-between;
+  list-style-type: none;
+  padding: o;
+  margin: 0;
+}
+
+.navigation-content {
+  text-decoration: none;
+  padding: 10px 15px;
+  display: inline-block;
+}
+
+
+.navigation-content:nth-child(1) {
+  color: white; 
+}
+
+.navigation-content:nth-child(2) {
+  color: white; 
+}
+
+.navigation-content:nth-child(3) {
+  color: white; 
+}
+
+.navigation-content:nth-child(4) {
+  color: white; 
+}
+
+.navigation-content:nth-child(5) {
+  color: white; 
+  font-family: 'Courier New', Courier, monospace; 
+  font-weight: bold;
+}
+
+
+.navigation-content:hover {
+  background-color: #f0f0f0; 
+  color: #000; 
+ }
+}
+
+header.design-two-animation {
+  width: 100vw;
+  display: flex;
+  justify-content: space-between;
+  padding: 0 10vw;
+  height: calc(50px + 1rem);
+  align-items: center;
+  background: rgb(63, 37, 136);
+  position: relative;
+}
+
+
+header.design-two-animation .pop-up {
+  display: flex;
+  align-items: center;
+  position: relative;
+}
+
+header.design-two-animation .pop-up:hover .company-logo {
+  transform: scale(1.2); 
+  opacity: 0; 
+}
+
+header.design-two-animation .pop-up:hover .Pokemon-logo {
+  transform: translateX(-50%) translateY(-50px); 
+  opacity: 1; 
+}
+
+
+header.design-two-animation .company-logo {
+  height: 50px;
+  padding: 0.2rem 0;
+  transition: all 0.3s ease;
+  z-index: 1; 
+  margin-right: auto; 
+  opacity: 1;
+}
+
+
+header.design-two-animation .Pokemon-logo {
+  height: 100px;
+  width: 190px; 
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translateX(-50%) translateY(0); 
+  transition: all 0.5s ease;
+  opacity: 0; 
+  z-index: 0; 
+}
+
+
+header.design-two-animation nav.navigation {
+  display: flex;
+  align-items: center;
+  height: 100%;
+}
+
+header.design-two-animation nav.navigation a.navigation-content {
+  font-weight: 600;
+  font-size: 1.1rem;
+  color: rgb(255, 255, 255);
+  transition: 0.2s ease;
+  height: 100%;
+  display: flex;
+  align-items: center;
+  padding: 0 1rem;
+  border: 1px transparent solid;
+}
+
+header.design-two-animation nav.navigation a.navigation-content:hover {
+  background: rgb(86, 67, 170, 0.726);
+  transform: translate(-10px, -10px);
+  box-shadow: 10px 10px 0px 0px rgb(92, 68, 231);
+  border: 1px rgb(255, 255, 255) solid;
+}
+
+header.design-two-animation nav.navigation a.navigation-content:active {
+  background: rgb(86, 67, 170, 0.726);
+  transform: translate(0px, 0px);
+  box-shadow: 0px 0px 0px 0px rgb(92, 68, 231);
+  border: 1px transparent solid;
+}
+
+header.design-three-animation {
+  width: 100vw;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 0 10vw;
+  height: calc(50px + 1rem);
+  background: rgb(63, 37, 136);
+  position: relative;
+}
+
+header.design-three-animation .navigation {
+  display: flex;
+  align-items: center;
+  height: 100%;
+}
+
+header.design-three-animation .navigation a.navigation-content {
+  font-weight: 600;
+  font-size: 1.1rem;
+  color: rgb(255, 255, 255);
+  transition: 0.2s ease;
+  height: 100%;
+  display: flex;
+  align-items: center;
+  padding: 0 1rem;
+  border: 1px transparent solid;
+}
+
+header.design-three-animation .navigation a.navigation-content:hover {
+  background: rgb(86, 67, 170, 0.726);
+  transform: translate(-10px, -10px);
+  box-shadow: 10px 10px 0px 0px rgb(92, 68, 231);
+  border: 1px rgb(255, 255, 255) solid;
+}
+
+header.design-three-animation .company-logo {
+  height: 50px;
+  transition: all 0.3s ease;
+  z-index: 1;
+  opacity: 1;
+}
+
+header.design-three-animation:hover .company-logo {
+   opacity: 0; /*Master Ball disappear on hover */
+}
+
+
+header.design-three-animation .Pokemon-logo {
+  height: auto;
+  width: 200px; 
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translateX(-50%) translateY(0);
+  transition: all 0.5s ease;
+  opacity: 0;
+  z-index: 0;
+}
+
+header.design-three-animation .pop-up:hover .Pokemon-logo {
+  transform: translateX(-50%) translateY(-60px);
+  opacity: 1;
+}
+
+
+section.design4 {
+  text-align: center;
+  margin-bottom: 0rem;
+  padding: 0.2rem 0;
+}
+
+section.design4 h1 {
+  font-size: 2rem;
+  color: #000000;
+}
+
+section.design4 p {
+  font-size: 1rem;
+  color: #000000;
+}
+
+header.design-four-animation {
+  width: 100vw;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 1rem 10vw;
+  background: rgb(63, 37, 136);
+  position: relative;
+}
+
+/* company logo (Master Ball) */
+header.design-four-animation .company-logo {
+  height: 50px;
+  transition: all 0.3s ease;
+  z-index: 1;
+  margin-left:-100px;
+}
+
+header.design-four-animation:hover .company-logo {
+  transform: scale(1.2);
+  opacity: 0; /*Master Ball disappear on hover */
+}
+
+header.design-four-animation .navigation {
+  display: flex;
+  gap: 2rem;
+  align-items: center;
+}
+
+header.design-four-animation .navigation a {
+  color: white;
+  font-size: 1.5rem;
+  transition: transform 0.3s ease, color 0.3s ease;
+}
+
+header.design-four-animation .navigation a:hover {
+  color: rgb(196, 6, 6, 0.726);
+  transform: scale(1.2);
+}
+
+header.design-four-animation .navigation i {
+  transition: transform 0.3s ease, color 0.3s ease;
+}
