@@ -8,7 +8,7 @@ This repository contains code for Activity 3, showcasing proficiency in HTML and
 
 ## Project Structure
 
-```plaintext
+WD-Seatwork-3
 .
 ├── assets
 │   ├── css
